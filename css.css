@@ -1,5 +1,5 @@
 .shiny-text {
-    background: linear-gradient(90deg, #ffffff, #0e0d0d, #ffffff);
+    background: linear-gradient(90deg,#000000, #000000, #ffffff, #000000, #000000);
     background-size: 200%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -8,10 +8,10 @@
 
 @keyframes shine {
     0% {
-        background-position: 0%;
+        background-position: 200%;
     }
     100% {
-        background-position: 200%;
+        background-position: 0%;
     }
 }
 
